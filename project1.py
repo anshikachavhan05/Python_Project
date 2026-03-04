@@ -1,4 +1,3 @@
-#Random password generator
 import random
 import string
 
@@ -32,4 +31,5 @@ else:
     password = ""
     for i in range(length):
         password = password + random.choice(characters)
+
     print("Your password is:", password)
